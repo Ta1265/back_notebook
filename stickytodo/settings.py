@@ -25,7 +25,7 @@ SECRET_KEY = '_vam)vc*^_bh*o6p_lf&-6(bjp7)1j4uf6)ism)1=$@0mm(l#m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['back-notebook-env.eba-am2s9iym.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition

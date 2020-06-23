@@ -1,9 +1,9 @@
 branch-defaults:
   master:
-    environment: notebook-api-5
+    environment: back-notebook-env
     group_suffix: null
 global:
-  application_name: notebook-api-5
+  application_name: back_notebook
   branch: null
   default_ec2_keyname: '1'
   default_platform: Python 3.6

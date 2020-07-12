@@ -5,7 +5,7 @@ branch-defaults:
 global:
   application_name: back_notebook
   branch: null
-  default_ec2_keyname: '1'
+  default_ec2_keyname: "1"
   default_platform: Python 3.6
   default_region: us-east-1
   include_git_submodules: true

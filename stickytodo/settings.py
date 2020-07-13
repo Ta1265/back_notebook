@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'stickytodo.wsgi.application'
 if 'RDS_HOSTNAME' in os.environ:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.mysql',
+            'ENGINE': 'django.db.backends.postgresql',
             'NAME': os.environ['RDS_DB_NAME'],
             'USER': os.environ['RDS_USERNAME'],
             'PASSWORD': os.environ['RDS_PASSWORD'],
@@ -94,10 +94,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'notebook_2',
+            'NAME': 'ebdb',
             'USER': 'taylor',
             'PASSWORD': 'cheeze1265',
-            'HOST' : 'database-1.ccamiddz2iib.us-east-1.rds.amazonaws.com',
+            'HOST' : 'aa1vi4k43qkk0j7.ccamiddz2iib.us-east-1.rds.amazonaws.com',
             'PORT' : 5432,
         }
     }

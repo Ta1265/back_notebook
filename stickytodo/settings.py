@@ -25,7 +25,7 @@ SECRET_KEY = '_vam)vc*^_bh*o6p_lf&-6(bjp7)1j4uf6)ism)1=$@0mm(l#m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['back-notebook-env.eba-am2s9iym.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['back-notebook-env.eba-am2s9iym.us-east-1.elasticbeanstalk.com', '127.0.0.1', '*']
 
 
 # Application definition
@@ -128,11 +128,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     'https://notebookreact.s3.us-east-2.amazonaws.com',
-    'http://notebookreact.s3-website.us-east-2.amazonaws.com/'
+    'http://notebookreact.s3-website.us-east-2.amazonaws.com',
 ]

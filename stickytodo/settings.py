@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'stickytodo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
+        'NAME': 'notebook_2',
+        'USER': 'taylor',
         'PASSWORD': 'cheeze1265',
-        'HOST' : 'mynotebook.clwr9t2qn9tn.us-east-2.rds.amazonaws.com',
+        'HOST' : 'database-1.ccamiddz2iib.us-east-1.rds.amazonaws.com',
         'PORT' : 5432,
     }
 }
